@@ -1,0 +1,24 @@
+
+
+.app-container {
+  display: flex;
+  flex-direction: column; /* Navbar stays on top */
+  height: 100vh; /* Full viewport height */
+  /* background-color: #d9d9d9; */
+}
+
+.main-container {
+  display: flex;
+  flex: 1; /* Sidebar and Content take the remaining space */
+}
+
+.sidebar {
+  background-color: #2f3e2c;
+}
+
+.content {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
